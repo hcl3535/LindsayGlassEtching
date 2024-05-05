@@ -36,6 +36,7 @@ const avaibleGlassesListings = avaiableGlasses.map((glass, index) => {
                 width={1896} 
                 height={2130}
                 priority={true} 
+                sizes="40vw"
                 className="" 
             /> 
             <h1 style={myFont.style} className="text-white text-center text-4xl">{glass.name}</h1>
