@@ -32,9 +32,10 @@ const avaibleGlassesListings = avaiableGlasses.map((glass, index) => {
         <div key={index} className="w-2/5 m-2 ">
             <Image
                 src={glass.image}
-                alt="Picture of me" 
+                alt="Logo" 
                 width={1896} 
-                height={2130} 
+                height={2130}
+                priority={true} 
                 className="" 
             /> 
             <h1 style={myFont.style} className="text-white text-center text-4xl">{glass.name}</h1>
