@@ -4,8 +4,8 @@ import FrontPage from "./frontPage";
 
 export default function SinglePage(){
     return(
-        <section className=" bg-black">
-            <section className="">
+        <section className=" bg-black overflow-x-hidden">
+            <section className="overflow-x-hidden">
                 <FrontPage/>
             </section>
             <section className="">

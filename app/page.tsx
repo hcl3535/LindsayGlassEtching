@@ -5,7 +5,7 @@ import SinglePage from "./singlepage";
 
 export default function Home() {
   return (
-    <section>
+    <section className="">
       <Header/>
       <SinglePage/>
     </section>

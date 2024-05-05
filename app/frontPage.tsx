@@ -6,15 +6,14 @@ const myFont = localFont({src: "../fonts/Abhinaya.ttf"})
 
 export default function FrontPage (){
     return(
-        <section className="flex h-screen ">
+        <section className="flex h-screen w-screen">
             <Image
                 src={logo}
-                alt="Picture of me" 
-                width={1896} 
-                height={2130} 
+                alt="logo" 
                 priority={true} 
+                layout="responcive"
                 sizes="(min-width: 2000px) 1896px, calc(95vw + 15px)"
-                className=" object-cover absolute top-10 z-0 scale-150" 
+                className=" object-cover absolute top-20 z-0 scale-150 w-screen" 
             /> 
         </section>
     )
