@@ -26,10 +26,10 @@ const avaiableGlasses = [
     }, 
 ]
 
-const avaibleGlassesListings = avaiableGlasses.map(glass => {
+const avaibleGlassesListings = avaiableGlasses.map((glass, index) => {
     
     return(
-        <div className="w-2/5 m-2">
+        <div key={index} className="w-2/5 m-2 ">
             <Image
                 src={glass.image}
                 alt="Picture of me" 
@@ -42,7 +42,7 @@ const avaibleGlassesListings = avaiableGlasses.map(glass => {
     )
 });
 
-console.log(avaibleGlassesListings)
+
 
 
 
