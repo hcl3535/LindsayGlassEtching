@@ -29,7 +29,7 @@ const avaiableGlasses = [
 const avaibleGlassesListings = avaiableGlasses.map((glass, index) => {
     
     return(
-        <div key={index} className="w-2/5 m-2 ">
+        <div key={index} className="w-2/5 m-2 sm:w-1/5">
             <Image
                 src={glass.image}
                 alt="Logo" 
