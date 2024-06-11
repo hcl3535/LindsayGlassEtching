@@ -56,6 +56,7 @@ export default function ProductsPage() {
             <section className=" flex flex-wrap justify-center">
                 {avaibleGlassesListings}
             </section>
+            <h1 style={myFont.style} className="text-white text-2xl text-center mb-5 ml-5 mr-5">We do custom work! if the glass you want is not shown please email us</h1>
             <section>
                 <h1 style={myFont.style} className="text-white text-center text-6xl">pricing</h1>
                 <h1 className="text-white text-center">10 to 20 glasses: 15$ each</h1>
