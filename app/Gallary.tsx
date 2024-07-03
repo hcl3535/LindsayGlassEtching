@@ -130,8 +130,7 @@ useEffect(() => {
             </div>
             }
             </div>
-            <section className=" flex flex-wrap align-middle justify-center">
-                {gallaryPicList}
+            <section className=" flex flex-wrap align-middle justify-center">                {gallaryPicList}
             </section>     
         </section>
     )
