@@ -107,7 +107,7 @@ useEffect(() => {
     
     return(
         <section className="flex justify-center align-middle flex-col"> 
-            <h1 style={myFont.style} className="text-white pt-5 text-6xl self-center mb-5">Gallary</h1>
+            <h1 style={myFont.style} className="text-white pt-5 text-6xl self-center mb-1">Gallery</h1>
             <div className="w-5/6 justify-center flex align-middle self-center aspect-square ">
 
             {showcasedPic.video? 

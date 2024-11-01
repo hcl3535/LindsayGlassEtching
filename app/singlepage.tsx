@@ -1,7 +1,8 @@
 import Gallary from "./Gallary";
-import ProductsPage from "./ProductsPage";
+import Featured from "./Featured";
 import ContactMe from "./contact";
 import FrontPage from "./frontPage";
+import Catagories from "./Catagories";
 
 export default function SinglePage(){
     return(
@@ -10,7 +11,10 @@ export default function SinglePage(){
                 <FrontPage/>
             </section>
             <section className="">
-                <ProductsPage/>
+                <Featured/>
+            </section>
+            <section>
+                <Catagories/>
             </section>
             <section className="">
                 <Gallary/>
