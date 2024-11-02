@@ -1,33 +1,21 @@
 import Image from "next/image"
 import localFont from "next/font/local"
-import beerGlass from "../public/beerGlass.jpg"
-import rocksGlass from "../public/rocksGlass.jpg"
-import tallGlass from "../public/tallGlass.jpg"
-import shotGlass from "../public/shotGlass.jpg"
+import TTRPG from "../public/TTRPG catagory.jpg"
+import spiderWebMirror from"../public/spiderWebMirror.jpg"
 
 const myFont = localFont({src: "../fonts/Abhinaya.ttf"})
 
 const FeaturedItems = [
     {
-        name: "Beer Glass",
-        image: beerGlass,
-        price: "25.99"
+        name: "TTRPG Glasses",
+        image: TTRPG,
+        price:"15.00"
     },
     {
-        name: "Rocks Glass",
-        image: rocksGlass,
-        price: "25.99"
-    },
-    {
-        name: "Tall Glass",
-        image: tallGlass,
-        price: "25.99"
-    },
-    {
-        name: "Shot Glass",
-        image: shotGlass,
-        price: "25.99"
-    }, 
+        name:"Spider Web Mirror",
+        image: spiderWebMirror,
+        price:"15.00"
+    }
 ]
 
 const FeaturedItemListings = FeaturedItems.map((FeaturedItem, index) => {
@@ -52,7 +40,7 @@ const FeaturedItemListings = FeaturedItems.map((FeaturedItem, index) => {
                     </svg>
                 </section>
             </section>
-            <h1 style={myFont.style} className="text-white text-center text-4xl">{FeaturedItem.name}</h1>
+            <h1 className="text-white text-center text-2xl">{FeaturedItem.name}</h1>
         </div>
     )
 });
