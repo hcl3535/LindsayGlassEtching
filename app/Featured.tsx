@@ -31,7 +31,7 @@ const FeaturedItemListings = FeaturedItems.map((FeaturedItem, index) => {
                 sizes="40vw"
                 className="" 
             /> 
-            <section className="flex justify-between">
+            <section className="flex justify-between mt-2">
                 <h3 className="text-white pl-5">{FeaturedItem.price}</h3>
                 <section className="pr-5">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-cart-plus text-white" viewBox="0 0 16 16">
